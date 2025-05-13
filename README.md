@@ -1,1 +1,1 @@
-# INF6420 Project
+# Greg's INF6420 Project
