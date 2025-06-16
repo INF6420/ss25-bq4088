@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GRchive</title>
+  <link href="style.css" type= "text/css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="images/GRbox-screen.png" alt= "GRchive logo">
+  <div id="header"> <!--begin header-->
+    <img id="logo" src="images/GRbox-screen.png" alt= "GRchive logo">
+    <div id="main-menu"> <!--begin navigation menu-->
       <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="contact.html">Contact</a></li> 
-        <li> <a href="privacy.html">Privacy</a></li>
+        <li class="nav"> <a href="index.html">Home</a></li>
+        <li class="nav"> <a href="about.html">About</a></li>
+        <li class="nav"> <a href="contact.html">Contact</a></li> 
+        <li class="nav"> <a href="privacy.html">Privacy</a></li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <div><h1 id="section-title">Welcome to GRchive</h1></div>
-    <div><img src="images/historyentry-web.jpg" alt="banner-image"></div>
-    <div><p>Welcome to GRchive, a virtual museum of items from a personal historical archive. A majority items date from the 18th Century with a concentration on the American Revolution. Nevertheless, items are continually being added, whether as new aquisituions or just new entries; and the historical scope is likely to expand although not lose its focus.<br><br>Enjoy your look around!</p></div>
-  </main>
-  <foot>
-    <div><p>Copyright <i>GRchive</i> 2025</p></div>
-    <div><img src="" alt=""></div>
-  </foot>
+    </div> <!--end navigation menu-->
+  </div> <!--end header-->
+  <div>
+    <img src="images/historyentry-web.jpg" class="banner" alt="banner-image">
+  </div>
+  <div id="content"> <!--begin content section-->
+    <h1 id="section-title">GRchive</h1>
+    <p>Welcome to GRchive, a virtual museum of items from a personal historical archive. The majority of items date from the 18th Century with a concentration on the American Revolution. Items are continually being added, whether as new acquisitions or just new entries; and the historical scope is likely to expand although not lose its focus.<br><br><i>Enjoy your visit!</i></p>
+  </div> <!--end content section-->
+  <div id="footer"> <!--begin footer, will have 3 columns-->
+    <div class="footer-column-1">&copy <i>GRchive</i> 2025. All Rights Reserved.</div>
+    <div class="footer-column-2">PLACEHOLDER</div>
+    <div class="footer-column-3">PLACEHOLDER</div>
+  </div> <!--end footer-->
 </body>
 </html>

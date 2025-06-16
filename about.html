@@ -4,30 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GRchive</title>
+  <link href="style.css" type= "text/css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="images/GRbox-screen.png"" alt= "GRchive logo">
+  <div id="header"> <!--begin header-->
+    <img id="logo" src="images/GRbox-screen.png" alt= "GRchive logo">
+    <div id="main-menu"> <!--begin navigation menu-->
       <ul>
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="contact.html">Contact</a></li> 
-        <li> <a href="privacy.html">Privacy</a></li>
+        <li class="nav"> <a href="index.html">Home</a></li>
+        <li class="nav"> <a href="about.html">About</a></li>
+        <li class="nav"> <a href="contact.html">Contact</a></li> 
+        <li class="nav"> <a href="privacy.html">Privacy</a></li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <div><h1 id="section-title">About</h1></div>
-    <div><img src="images/RothPortrait-632x790.jpg" alt="personal-image"></div>
-    <div><h2>Mission Statement</h2>
-    <i>GRchive</i> strives to promote learning and access through a private collection of 18th Century artifacts focusing on the American Revolution. Not only do these artifacts tell their own stories, but this website offers a chance to frame those stories in a broader and modern context and format. 
-    <div><h2>Personal Background</h2>
-      <p>Gregory Roth is a hobby archivist interested in <thead></thead> 18th Century with a serious interest in the American Revolution. In his spare time, Mr. Roth enjoys collecting, preserving, and researching documents, letters, newspapers, maps, and other artifacts from the period. Primary sources tell stories not otherwise told in contemporary media, and Mr. Roth is passionate about making these pieces of history accessible to others who share similar interests.</p></div>
-  </main>
-  <foot>
-    <div><p>Copyright <i>GRchive</i> 2025</p></div>
-    <div><img src="" alt=""></div>
-  </foot>
+    </div> <!--end navigation menu-->
+  </div> <!--end header-->
+  <div id="content"> <!--begin content section-->
+    <h2 id="section-title">About</h2></p>
+    <p>
+      <img src="images/RothPortrait-632x790.jpg" class="medium" class="image-right" alt="personal-image">
+    <b>Mission Statement</b><br><br>
+    <i>GRchive</i> strives to promote learning and access through a private collection of 18th Century artifacts focusing on the American Revolution. Not only do these artifacts tell their own stories, but this website offers a chance to frame those stories in a broader and modern context and format.<br><br>
+    <b>Personal Background</b><br><br>
+    Gregory Roth is a hobby archivist interested in the 18th Century with a serious interest in the American Revolution. In his spare time, Mr. Roth enjoys collecting, preserving, and researching documents, letters, newspapers, maps, and other artifacts from the period. Primary sources tell stories not otherwise told in contemporary media, and Mr. Roth is passionate about making these pieces of history accessible to others who share similar interests.
+    </p>
+    </div> <!--end content section-->
+  <div id="footer"> <!--begin footer, will have 3 columns-->
+    <div class="footer-column-1" class="clear">&copy <i>GRchive</i> 2025. All Rights Reserved.</div>
+    <div class="footer-column-2" class="clear">PLACEHOLDER</div>
+    <div class="footer-column-3" class="clear">PLACEHOLDER</div>
+  </div> <!--end footer-->
 </body>
 </html>
