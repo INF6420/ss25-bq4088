@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin: 10;
+}
+
+
+body {
+    height: 100%;
+    min-height 100%;
+    width : 100%;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    color: #111a6e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Arial, Verdana, Helvetica, sans-serif;
+    background-image: url("images/revpatriot-flip-fade.png");
+    background-size: 30%;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.nav a {
+    color: #000000;
+     text-decoration: none;
+     margin-right: 20px;
+}
+
+a:hover {
+    color: rgb(115, 112, 161);
+}
+a:active {
+    color: rgb(135, 36, 36) ;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+img.banner {
+    width:100%;
+}
+img.large {
+    width:500px;
+}
+
+img.medium {
+    width: 250px;
+}
+
+img.small {
+    width:100px;
+}
+
+img.profile {
+    width: 250px;
+    border: solid;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.main-content-profile {
+        display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-height: 600px;
+}
+
+.main-content-other {
+    min-height: 600px;
+}
+
+
+#header {
+    position: relative;
+    height: 120px;
+    background-color: #7f8cc2;
+}
+
+#logo {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
+
+#main-menu {
+    position: absolute;
+    bottom: 0; /* Positions the menu at the bottom of the container */
+    right: 0; /* Aligns the menu to the right */
+}
+
+li.nav {
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+li.non-nav {
+    list-style-type: circle;
+}
+
+#section-title {
+    text-align: center;
+}
+
+#section-subtitle {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.legaldoc {
+    background-color: #dcdcdc;
+    padding: 10px;
+    border-style: solid;
+    border-color: #111a6e;
+}
+
+#footer {
+    position: relative;
+    background-color: #7f8cc2;
+    height: 80pX;
+ }
+
+.footer-column-1, .footer-column-2, .footer-column-3 {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+   
+
