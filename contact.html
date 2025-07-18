@@ -21,15 +21,34 @@
   <div id="content"> <!--begin content section-->
     <h2 id="section-title">Contact</h2>
     <div class="main-content-other"> <!--begin main content section-->
-    <p><i>GRchive</i> welcomes hearing from like-minded archivists. Please feel free to <a href="mailto:gregory.roth@wayne.edu">email</a> or use the contact form provided below:</p>
-    <h3>Contact Form</h3>
-    <p>CONTACT FORM PLACEHOLDER</p>
+    <p><i>GRchive</i> welcomes hearing from like-minded enthusiast archivists. Please feel free to <a href="mailto:gregory.roth@wayne.edu">email</a> or use the contact form provided below:</p>
+    <div id="form-content"><!-- begin form -->
+      <h4>Send a message to <i>GRchive</i></h4>
+      <form action="https://formspree.io/f/mdkdnjda" method="POST" class="validate">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="name" class="form-input" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" class="form-input" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" minlength="10" class="form-input" rows="4" required></textarea>
+          </label>
+        </div>
+        <!-- add additonal form fields here, but do they have to also be added in formspree?-->
+        <button type="submit">Send</button>
+      </form></div><!-- end form -->
     </div> <!--end main content section-->
   </div> <!--end content section-->
    <div id="footer"> <!--begin footer, will have 3 columns-->
-    <div class="footer-column-1">&copy <i>GRchive</i> 2025. All Rights Reserved.</div>
-    <div class="footer-column-2">PLACEHOLDER</div>
-    <div class="footer-column-3">PLACEHOLDER</div>
+    <div id="footer-column-1">&copy <i>GRchive</i> 2025. All Rights Reserved.</div>
+    <div id="footer-column-2">FACEBOOK LOGO</div>
+    <div id="footer-column-3">INSTAGRAM LOGO</div>
   </div> <!--end footer-->
+  <!-- to load javascriupt from separate script file -->
+  <script src='script.js'> </script>
 </body>
 </html>
