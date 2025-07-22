@@ -21,6 +21,10 @@ body {
     background-attachment: scroll;
 }
 
+.no-background {
+    background-image: none;
+}
+
 h1 {
     font-family: 'IM Fell Double Pica SC', sans-serif;
     font-size: 48px;
@@ -59,17 +63,22 @@ p {
 
 img.banner {
     width:100%;
+    height: auto;
 }
+
 img.large {
     width:500px;
+    height: auto;
 }
 
 img.medium {
     width: 250px;
+    height: auto;
 }
 
 img.small {
     width:100px;
+       height: auto;
 }
 
 img.profile {
@@ -77,18 +86,6 @@ img.profile {
     border: solid;
     margin-left: 10px;
     margin-bottom: 30px;
-}
-
-#main-content-profile {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    min-height: 600px;
-    width: 80%;
-}
-
-.main-content-other {
-    min-height: 600px;
 }
 
 #header {
@@ -104,10 +101,21 @@ img.profile {
     padding: 10px;
 }
 
+.social {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
 #main-menu {
     position: absolute;
     bottom: 0; /* Positions the menu at the bottom of the container */
     right: 0; /* Aligns the menu to the right */
+}
+
+#content {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 li.nav {
@@ -118,11 +126,6 @@ li.nav {
     text-transform: uppercase; 
     text-decoration: none;
     margin-right: 10px;
-}
-
-#content {
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 li.non-nav {
@@ -136,6 +139,18 @@ li.non-nav {
 #section-subtitle {
     text-align: center;
     text-transform: uppercase;
+}
+
+#main-content-about {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    min-height: 600px;
+    width: 80%;
+}
+
+.main-content-other {
+    min-height: 600px;
 }
 
 .legaldoc {
