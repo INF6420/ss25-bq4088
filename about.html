@@ -18,11 +18,31 @@
         <li class="nav"> <a href="terms.html">terms</a></li>
       </ul>
     </div> <!--end navigation menu-->
+
+  <!--START RESPONSIVE HAMBURGER MENU-->
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="terms.html">Terms</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+    </div> 
+  <!--END RESPONSIVE HAMBURGER MENU-->
+
   </div> <!--end header-->
   <div id="content"> <!--begin content section-->
     <h2 id="section-title">About</h2></p>
     <div id="main-content-about"> <!--begin main content section-->
-      <img src="images/RothPortrait-632x790.jpg" class="profile" alt="profile image of man in suit">
+        <img 
+          srcset="images/RothPortrait-100x125.jpg 125w, images/RothPortrait-200x250.jpg 250w, images/RothPortrait-632x790.jpg 790w"
+          sizes="(width <= 300px) 100px, (width <= 600px) 250px, 790px"
+          src="images/RothPortrait-632x790.jpg"
+          class="profile" 
+          alt="profile image of man in suit"> <!--added alternate images for responsive screen size-->
       <div> <!--begin text section-->
         <h3>Mission Statement</h3>
           <p><i>GRchive</i> strives to promote learning and access through a private collection of 18th Century artifacts focusing on the American Revolution. Not only do these artifacts tell their own stories, but this site offers an opportunity to frame those stories in a broader and modern context and format. This is especially important in the years to come with many 250th anniversaries of events of the American Revolution, including the 250th anniversary of the Declaration of Independence next year in 2026.</p>
