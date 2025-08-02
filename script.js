@@ -218,3 +218,17 @@ document.addEventListener('submit', function (event) {
     // You could also bolt in an Ajax form submit process here
 
 }, false);
+
+
+ /* START RESPONSIVE HAMBURGER MENU */
+
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+} 
+ /* END RESPONSIVE HAMBURGER MENU */
